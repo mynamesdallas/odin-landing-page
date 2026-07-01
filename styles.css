@@ -9,6 +9,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 header {
     background-color: #1F2937;
     display: flex;
@@ -149,4 +153,25 @@ main {
 .quote-section h3 {
     justify-content: end;
     align-self: flex-end;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    margin-bottom: 150px;
+    border: 1px solid black;
+}
+
+.action-container {
+    justify-content: center;
+    align-self: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 1.5rem 15rem;
+    border-radius: 10px;
+}
+
+.action-button {
+    border: 1px solid #F9FAF8;
 }
