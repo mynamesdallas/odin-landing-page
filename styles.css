@@ -147,7 +147,8 @@ main {
 }
 
 .quote-section p {
-    flex: 1;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .quote-section h3 {
@@ -160,10 +161,11 @@ main {
     justify-content: center;
     height: 50vh;
     margin-bottom: 150px;
-    border: 1px solid black;
 }
 
 .action-container {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-self: center;
     background-color: #3882F6;
@@ -172,6 +174,24 @@ main {
     border-radius: 10px;
 }
 
+.action-title, .action-description {
+    align-self: start;
+    float: left;
+    padding-right: 25px;
+}
+
 .action-button {
     border: 1px solid #F9FAF8;
+    align-self: flex-end;
+    float: right;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #E5E7EB;
 }
